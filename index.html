@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TU WiCyS Takeover</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: arial;
+			text-align: center;
+			background-color: rgb(218, 83, 218);
+			color: white;
+		}
+		a {
+			background-color: black;
+			color: white;
+			padding: 0.5em;
+			border-radius: 1em;
+		}
+		#about {
+			background-color: rgba(87, 87, 87, 0.8);
+		}
+		#easy {
+			background-color: rgb(9, 196, 9);
+		}
+		#normal {
+			background-color: rgb(255, 208, 0);
+		}
+		#hard {
+			background-color: rgb(190, 0, 0);
+		}
+		#impossible {
+			color: white;
+			background-image: url("img/fire.gif");
+			font-family:'Times New Roman', serif;
+		}
+		.row {
+			padding: 1em;
+
+		}
+		.logo {
+			height: 8em;
+		}
+		.gallery{
+			display: flex;
+		}
+		.card {
+			background-color: rgba(7, 6, 6, 0.7);
+			width:20em;
+			padding: 1rem;
+			margin: 1rem;
+			border-radius: 1em;
+		}
+	</style>
+</head>
+<body>
+	<!--
+	* Obedient Cat - General Skills - 5 points
+	* Mod 26 - Cryptography - 10 points
+	* Python Wrangling - General Skills - 10 points
+	* Wave a flag - General Skills - 10 points
+	* information - Forensics - 10 points
+	* Nice netcat - General Skills - 15 points
+	* GET aHEAD - Web Exploitation - 20 points
+	* Mind your Ps and Qs - Cryptography - 20 points
+	* Static ain't always noise  - General Skills - 20 points
+	* Tab, Tab, Attack - General - 20 points
+	-->
+	<img class="logo" src="img/logo-tu.png"></img>
+	<img class="logo" src="img/logo-wicys.png"></img>
+	<h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif">
+		TU WiCyS - CTF Takeover
+	</h1>
+	<div id="about" class="row">
+		<h2>How To Play</h2>
+		<p>Tell Eric when you finish a challenge!</p>
+	</div>
+	<div id="easy" class="row">
+		<h2>Easy Challenges</h2>
+		<p class="desc"></p>
+		<div class="gallery">
+			<div class="card">
+				<h3 class="challenge">Obedient Cat</h3>
+				<p class="category">General</p>
+				<h4 class="points">5 Points</h4>
+				<a href="https://picoctf.org" >link</a>
+			</div>
+			<div class="card">
+				<h3 class="challenge">Mod 26</h3>
+				<p class="category">Cryptography</p>
+				<h4 class="points">10 Points</h4>
+				<a href="https://picoctf.org" >link</a>
+			</div>
+			<div class="card">
+				<h3 class="challenge"> </h3>
+				<p class="category"> </p>
+				<h4 class="points"> </h4>
+				<a href="https://picoctf.org" >link</a>
+			</div>
+			<div class="card">
+				<h3 class="challenge"> </h3>
+				<p class="category"> </p>
+				<h4 class="points"> </h4>
+				<a href="https://picoctf.org" >link</a>
+			</div>
+			<div class="card">
+				<h3 class="challenge"> </h3>
+				<p class="category"> </p>
+				<h4 class="points"> </h4>
+				<a href="https://picoctf.org" >link</a>
+			</div>
+		</div>
+	</div>
+	<div id="normal" class="row">
+		<h2>Normal Challenges</h2>
+		<p class="desc"></p>
+
+		<div class="card">
+			<h3 class="challenge"> </h3>
+			<p class="category"> </p>
+			<h4 class="points"> </h4>
+			<a href="https://picoctf.org" >link</a>
+		</div>
+	</div>
+	<div id="impossible" class="row">
+		<h2>Impossible Challenges</h2>
+		<p class="desc">These could take a while...</p>
+
+		<div class="card">
+			<h3 class="challenge">Where's the Body?</h3>
+			<p class="category">Forensics</p>
+			<h4 class="points">500 Points</h4>
+			<a href="google.com" >link</a>
+		</div>
+	</div>
+</body>
