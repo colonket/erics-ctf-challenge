@@ -36,6 +36,7 @@ a {
 }
 #about ul li {
     display: inline;
+    white-space: nowrap;
 }
 #about ul li a{
     background-color: grey;
@@ -55,18 +56,23 @@ a {
 }
 .row {
     padding: 1em;
-
 }
 .logo {
     height: 8em;
 }
 .gallery{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%
 }
 .card {
     background-color: rgba(7, 6, 6, 0.7);
-    width:20em;
+    width:10em;
     padding: 1rem;
     margin: 1rem;
     border-radius: 1em;
+}
+.card a {
+    white-space: nowrap;
 }
