@@ -19,6 +19,9 @@ a {
     padding: 0.5em;
     border-radius: 1em;
 }
+a#skull {
+    background-color: rgba(0,0,0,0);
+}
 #about {
     background-color: var(--navy-blue);
 }
