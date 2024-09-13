@@ -1,9 +1,16 @@
+:root {
+    --navy-blue:#002D72;
+    --red:#C8102E;
+    --old-gold:#C5B783;
+    --yellow:#F3D54E;
+    --metallic-gold:#84754E;
+}
 body {
     margin: 0;
     padding: 0;
     font-family: arial;
     text-align: center;
-    background-color: rgb(218, 83, 218);
+    background-color: var(--metallic-gold);
     color: white;
 }
 a {
@@ -13,7 +20,7 @@ a {
     border-radius: 1em;
 }
 #about {
-    background-color: rgba(87, 87, 87, 0.8);
+    background-color: var(--navy-blue);
 }
 #about a {
     background-color: rgba(0,0,0,0);
@@ -26,25 +33,24 @@ a {
     margin-right: auto;
     width: 20em;
     text-align: left;
-    font-size:1.5em;
 }
 #about ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: 2em;
 }
 #about ul li {
     display: inline;
     white-space: nowrap;
 }
 #about ul li a{
-    background-color: grey;
+    background-color: var(--red);
     padding: 0.25em;
     border-radius: 0.25em;
 }
 #about ul li a:hover{
-    background-color: black;
+    background-color: var(--yellow);
+    color: var(--red);
 }
 #easy   {background-color: rgb(9, 196, 9);}
 #normal {background-color: orange;}
@@ -64,7 +70,8 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%
+    width: 100%;
+    justify-content: center;
 }
 .card {
     background-color: rgba(7, 6, 6, 0.7);
@@ -75,4 +82,9 @@ a {
 }
 .card a {
     white-space: nowrap;
+}
+
+input[type=checkbox] {
+    width:2em;
+    height:2em;
 }
